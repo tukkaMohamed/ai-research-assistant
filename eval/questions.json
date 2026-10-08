@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "type": "single",
+    "question": "According to the original RAG paper, what is the main idea of the proposed Retrieval-Augmented Generation approach?",
+    "expected_sources": ["01_original_rag.pdf"],
+    "keywords_any": ["parametric", "non-parametric", "retrieval-augmented"],
+    "reference_answer": "The original RAG approach combines a pre-trained language model with a non-parametric memory accessed through retrieval."
+  },
+  {
+    "id": 2,
+    "type": "single",
+    "question": "According to the Self-RAG paper, how does Self-RAG improve the retrieval-augmented generation process?",
+    "expected_sources": ["03_self_rag.pdf"],
+    "keywords_any": ["reflection tokens", "reflection", "self-reflection"],
+    "reference_answer": "Self-RAG uses reflection mechanisms to decide when to retrieve and to critique retrieved evidence and generated responses."
+  },
+  {
+    "id": 3,
+    "type": "single",
+    "question": "According to the BERT paper, what are the two pre-training tasks used to train BERT?",
+    "expected_sources": ["BERT.pdf"],
+    "keywords_any": ["masked language model", "next sentence prediction"],
+    "reference_answer": "BERT is pre-trained using Masked Language Modeling and Next Sentence Prediction."
+  },
+  {
+    "id": 4,
+    "type": "single",
+    "question": "According to the LoRA paper, what is the main idea of Low-Rank Adaptation?",
+    "expected_sources": ["LoRa.pdf"],
+    "keywords_any": ["low-rank", "low rank", "rank decomposition"],
+    "reference_answer": "LoRA adapts a pre-trained model by learning low-rank update matrices while keeping the original model weights frozen."
+  },
+  {
+    "id": 5,
+    "type": "single",
+    "question": "According to the Attention Is All You Need paper, what architecture was introduced?",
+    "expected_sources": ["Attention Is All You Need.pdf"],
+    "keywords_any": ["Transformer", "self-attention", "multi-head attention"],
+    "reference_answer": "The paper introduced the Transformer architecture based on attention mechanisms."
+  },
+  {
+    "id": 6,
+    "type": "single",
+    "question": "According to the ReAct paper, what does the ReAct approach combine?",
+    "expected_sources": ["ReAct.pdf"],
+    "keywords_any": ["reasoning and acting", "reasoning", "acting"],
+    "reference_answer": "ReAct combines reasoning and acting so that language models can reason about a task and take actions in an environment."
+  },
+  {
+    "id": 7,
+    "type": "cross",
+    "question": "Compare the pre-training approaches of BERT and GPT-3.",
+    "expected_sources": ["BERT.pdf", "GPT-3.pdf"],
+    "keywords_any": ["pre-training", "pretraining", "language model"],
+    "reference_answer": "BERT uses masked language modeling and next sentence prediction, while GPT-3 is an autoregressive language model trained for next-token prediction."
+  },
+  {
+    "id": 8,
+    "type": "cross",
+    "question": "Compare the original RAG approach with Self-RAG.",
+    "expected_sources": ["01_original_rag.pdf", "03_self_rag.pdf"],
+    "keywords_any": ["retrieval", "generation", "reflection", "critique"],
+    "reference_answer": "Original RAG combines retrieval with generation, while Self-RAG adds reflection mechanisms for controlling retrieval and evaluating retrieved evidence and generated responses."
+  },
+  {
+    "id": 9,
+    "type": "out_of_scope",
+    "question": "What is the capital of Egypt?",
+    "expected_sources": [],
+    "keywords_any": [],
+    "reference_answer": "The question is outside the provided research papers."
+  },
+  {
+    "id": 10,
+    "type": "out_of_scope",
+    "question": "What is today's weather in Cairo?",
+    "expected_sources": [],
+    "keywords_any": [],
+    "reference_answer": "The question is outside the provided research papers."
+  }
+]

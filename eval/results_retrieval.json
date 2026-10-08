@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1,
+    "type": "single",
+    "question": "According to the original RAG paper, what is the main idea of the proposed Retrieval-Augmented Generation approach?",
+    "retrieved": [
+      "02_rag_survey.pdf p.2",
+      "02_rag_survey.pdf p.1",
+      "05_ragas.pdf p.1",
+      "05_ragas.pdf p.2",
+      "02_rag_survey.pdf p.1",
+      "01_original_rag.pdf p.18",
+      "04_crag.pdf p.2",
+      "01_original_rag.pdf p.6"
+    ],
+    "source_recall": 1.0,
+    "keyword_in_chunks": 1.0
+  },
+  {
+    "id": 2,
+    "type": "single",
+    "question": "According to the Self-RAG paper, how does Self-RAG improve the retrieval-augmented generation process?",
+    "retrieved": [
+      "02_rag_survey.pdf p.1",
+      "03_self_rag.pdf p.1",
+      "02_rag_survey.pdf p.1",
+      "04_crag.pdf p.4",
+      "05_ragas.pdf p.1",
+      "04_crag.pdf p.3",
+      "02_rag_survey.pdf p.2",
+      "04_crag.pdf p.9"
+    ],
+    "source_recall": 1.0,
+    "keyword_in_chunks": 0.0
+  },
+  {
+    "id": 3,
+    "type": "single",
+    "question": "According to the BERT paper, what are the two pre-training tasks used to train BERT?",
+    "retrieved": [
+      "BERT.pdf p.3",
+      "BERT.pdf p.3",
+      "BERT.pdf p.16",
+      "Sentence-BERT.pdf p.2",
+      "Sentence-BERT.pdf p.10",
+      "LoRa.pdf p.15",
+      "Sentence-BERT.pdf p.5",
+      "QLoRA.pdf p.19"
+    ],
+    "source_recall": 1.0,
+    "keyword_in_chunks": 0.0
+  },
+  {
+    "id": 4,
+    "type": "single",
+    "question": "According to the LoRA paper, what is the main idea of Low-Rank Adaptation?",
+    "retrieved": [
+      "LoRa.pdf p.9",
+      "QLoRA.pdf p.3",
+      "LoRa.pdf p.4",
+      "LoRa.pdf p.6",
+      "QLoRA.pdf p.22",
+      "QLoRA.pdf p.22",
+      "02_rag_survey.pdf p.5",
+      "02_rag_survey.pdf p.7"
+    ],
+    "source_recall": 1.0,
+    "keyword_in_chunks": 1.0
+  },
+  {
+    "id": 5,
+    "type": "single",
+    "question": "According to the Attention Is All You Need paper, what architecture was introduced?",
+    "retrieved": [
+      "Prompt Eng.pdf p.15",
+      "Prompt Eng.pdf p.16",
+      "01_original_rag.pdf p.2",
+      "BERT.pdf p.3",
+      "Attention Is All You Need.pdf p.1",
+      "ReAct.pdf p.4",
+      "02_rag_survey.pdf p.1",
+      "GPT-3.pdf p.41"
+    ],
+    "source_recall": 1.0,
+    "keyword_in_chunks": 1.0
+  },
+  {
+    "id": 6,
+    "type": "single",
+    "question": "According to the ReAct paper, what does the ReAct approach combine?",
+    "retrieved": [
+      "ReAct.pdf p.5",
+      "ReAct.pdf p.6",
+      "ReAct.pdf p.2",
+      "01_original_rag.pdf p.17",
+      "Prompt Eng.pdf p.24",
+      "Prompt Eng.pdf p.24",
+      "GPT-3.pdf p.2",
+      "Prompt Eng.pdf p.3"
+    ],
+    "source_recall": 1.0,
+    "keyword_in_chunks": 1.0
+  },
+  {
+    "id": 7,
+    "type": "cross",
+    "question": "Compare the pre-training approaches of BERT and GPT-3.",
+    "retrieved": [
+      "BERT.pdf p.14",
+      "BERT.pdf p.13",
+      "BERT.pdf p.3",
+      "GPT-3.pdf p.20",
+      "LoRa.pdf p.15",
+      "GPT-3.pdf p.18",
+      "Sentence-BERT.pdf p.5",
+      "GPT-3.pdf p.34"
+    ],
+    "source_recall": 1.0,
+    "keyword_in_chunks": 1.0
+  },
+  {
+    "id": 8,
+    "type": "cross",
+    "question": "Compare the original RAG approach with Self-RAG.",
+    "retrieved": [
+      "03_self_rag.pdf p.1",
+      "04_crag.pdf p.8",
+      "02_rag_survey.pdf p.1",
+      "02_rag_survey.pdf p.2",
+      "02_rag_survey.pdf p.1",
+      "04_crag.pdf p.15",
+      "04_crag.pdf p.8",
+      "03_self_rag.pdf p.20"
+    ],
+    "source_recall": 0.5,
+    "keyword_in_chunks": 1.0
+  },
+  {
+    "id": 9,
+    "type": "out_of_scope",
+    "question": "What is the capital of Egypt?",
+    "retrieved": [
+      "QLoRA.pdf p.11",
+      "Toolformer.pdf p.10",
+      "05_ragas.pdf p.8",
+      "Toolformer.pdf p.16",
+      "GPT-3.pdf p.51",
+      "GPT-3.pdf p.55",
+      "GPT-3.pdf p.60",
+      "03_self_rag.pdf p.26"
+    ],
+    "source_recall": null,
+    "keyword_in_chunks": null
+  },
+  {
+    "id": 10,
+    "type": "out_of_scope",
+    "question": "What is today's weather in Cairo?",
+    "retrieved": [
+      "03_self_rag.pdf p.28",
+      "Toolformer.pdf p.10",
+      "Prompt Eng.pdf p.4",
+      "Toolformer.pdf p.17",
+      "QLoRA.pdf p.12",
+      "Toolformer.pdf p.7",
+      "GPT-3.pdf p.63",
+      "Prompt Eng.pdf p.4"
+    ],
+    "source_recall": null,
+    "keyword_in_chunks": null
+  }
+]

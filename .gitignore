@@ -1,0 +1,32 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Generated RAG index
+data/index.faiss
+data/index.pkl
+
+# Generated extraction cache
+data/extractions/
+
+# Local research papers
+data/papers/*.pdf
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
